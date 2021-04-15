@@ -19,6 +19,16 @@ body {
   color: aliceblue;
 }
 
+/* .myworkrow{
+  padding: 10% 15%;
+} */
+
+
+.card{
+  padding: 10px;
+  margin : 120px auto; 
+}
+
  /* section{
   position: relative;
   width: 100%;
@@ -46,7 +56,7 @@ section:before{
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 720px;
   background-color: #131212;
   background-image: url("https://www.xmple.com/wallpaper/black-glow-hexagon-white-purple-gradient-3200x1800-c4-000000-ffffff-8a2be2-000000-l2-10-132-a-15-f-6.svg");
   background-repeat: no-repeat;
@@ -54,11 +64,13 @@ section:before{
   background-position: 50% 50%;
 }
 
-#second-section{
+#project-section{
   background-color: rgb(46, 3, 63);
   width: 100%;
-  height: 40%;
+  height: 1000px;
 }
+
+
 
 /* footer */
 #footer p{
@@ -82,3 +94,6 @@ section:before{
  color: rgb(46, 3, 63);
  cursor: pointer;
 }
+
+
+/* TODO: ADD MEDIA QUERIES TO project section and add header to it as well */
