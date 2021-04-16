@@ -64,6 +64,18 @@ section:before{
   background-position: 50% 50%;
 }
 
+.myworkheading{
+  font-size: large;
+  font-weight: 900;
+  font-family: serif;
+  color: white;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  text-align: center;
+}
+
 #project-section{
   background-color: rgb(46, 3, 63);
   width: 100%;
