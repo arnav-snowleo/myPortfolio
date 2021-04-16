@@ -1,6 +1,6 @@
 AOS.init({
     duration: 3000,
-  })
+  });
 
 //typing animation
 
@@ -12,4 +12,4 @@ var options = {
   loop: true,
 };
 
-var typed = new Typed(".metyping",options);
+var typed = new Typed(".metyped",options);
