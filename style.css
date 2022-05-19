@@ -1,44 +1,40 @@
-*{
-  box-sizing: border-box;
-}
-   
-
-
-.row{
-  margin-right: 15px;
-  margin-left: 15px;
+* {
+    box-sizing: border-box;
 }
 
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
 
 body {
-  background-color: #dbc81b;
+    background-color: #dbc81b;
 }
-
 
 .div-2 {
     background-color: #0c0c0c;
 }
 
-.header-name{
-  color: aliceblue;
+.header-name {
+    color: aliceblue;
 }
 
-.header-intro{
-  color: aliceblue;
+.header-intro {
+    color: aliceblue;
 }
+
 
 /* .myworkrow{
   padding: 10% 15%;
 }  */
 
-
-
-.card{
-  padding: 10px;
-  margin : 120px auto; 
+.card {
+    padding: 10px;
+    margin: 120px auto;
 }
 
- /* section{
+
+/* section{
   position: relative;
   width: 100%;
   height: 60%;
@@ -61,103 +57,89 @@ section:before{
   mix-blend-mode: screen;
 }  */
 
-
 #particles-js {
-  position: absolute;
-  width: 100%;
-  height: 720px;
-  background-color: #131212;
-  background-image: url("https://www.xmple.com/wallpaper/black-glow-hexagon-white-purple-gradient-3200x1800-c4-000000-ffffff-8a2be2-000000-l2-10-132-a-15-f-6.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
+    position: absolute;
+    width: 100%;
+    height: 720px;
+    background-color: #131212;
+    /* background-image: url("https://www.xmple.com/wallpaper/black-glow-hexagon-white-purple-gradient-3200x1800-c4-000000-ffffff-8a2be2-000000-l2-10-132-a-15-f-6.svg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
-.myworkheading{
-  font-size: large;
-  font-weight: 900;
-  font-family: serif;
-  color: white;
-  
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 6rem;
-  text-align: center;
+.myworkheading {
+    font-size: large;
+    font-weight: 900;
+    font-family: serif;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    text-align: center;
 }
-
 
 
 /* designed section */
-#project-section{
- position: relative;
- padding: 0;
- margin: 0;
 
- text-align: center;
- 
- 
+#project-section {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-.mydiv-1{
-  width: 40%;
-  background-color: rgb(115, 58, 138);
-  height: 600px;
-  
-  
-
-  color: white;
-  text-align: center;
-  padding: 280px 0;
-
-
-
+.mydiv-1 {
+    width: 40%;
+    background-color: rgb(115, 58, 138);
+    height: 600px;
+    color: white;
+    text-align: center;
+    padding: 280px 0;
 }
 
-.mydiv-2{
-  width: 60%;
-  background-color: rgb(89, 8, 121);
-  height:600px;
-    
-  color: white;
-  
-
-
+.mydiv-2 {
+    width: 60%;
+    background-color: rgb(89, 8, 121);
+    height: 600px;
+    color: white;
 }
 
-.card{
-  color: #0c0c0c;
-  background-color: rgb(180, 140, 196);
-  
-
+.card {
+    color: #0c0c0c;
+    background-color: rgb(180, 140, 196);
 }
+
 
 /* bug fixed */
 
-.row{
-  margin: 0;
+.row {
+    margin: 0;
 }
+
 
 /* footer */
-#footer p{
-  color: #5c5b5b;
-  font-weight: bold;
+
+#footer p {
+    color: #5c5b5b;
+    font-weight: bold;
 }
 
-#footer{
-  padding-top: 6%;
-  padding-bottom: 6%;
-  text-align: center;
-  color: white;
+#footer {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-align: center;
+    color: white;
 }
 
-.footer-icons{
-  margin: 0.5rem;
-  color: black;
+.footer-icons {
+    margin: 0.5rem;
+    color: black;
 }
 
-.footer-icons:hover{
- color: rgb(46, 3, 63);
- cursor: pointer;
+.footer-icons:hover {
+    color: rgb(46, 3, 63);
+    cursor: pointer;
 }
 
 
