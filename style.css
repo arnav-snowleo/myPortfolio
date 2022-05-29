@@ -17,6 +17,7 @@ body {
 
 .header-name {
     color: aliceblue;
+    text-shadow: 1px 1px 20px white;
 }
 
 .header-intro {
